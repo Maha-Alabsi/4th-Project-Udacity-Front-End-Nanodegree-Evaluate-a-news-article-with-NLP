@@ -41,8 +41,8 @@ This web tool use of an external API called MeaningCLoud to interact with their 
 If you want to run this project in your machine ,you need to:
 
 1. Open command line
-   * cd (project directory)
-   * npm install
+   * $cd (project directory)
+   * $npm install
 2. Open two different command line window
    * In the first terminal run : $npm run build-dev
    * In the second terminal run : 
