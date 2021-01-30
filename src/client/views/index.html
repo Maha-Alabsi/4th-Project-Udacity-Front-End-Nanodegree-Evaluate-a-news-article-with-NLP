@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Evaluate a News Article with NLP </title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="">
+                Logo
+            </div>
+            <div>Evaluate a News Article with NLP </div>
+            <div class="">
+                navigation
+            </div>
+        </header>
+
+        <main>
+            <section id="sec1">
+                <p id="intro">This tool will give a sentiment analysis of texts and detects their polarity, subjectivity, irony, and emotional agreement.</p>
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <label>Text Url</label>
+                    <input id="url" type="text" name="input" value="" placeholder="Enter The Url Here">
+                    <div id="valid"></div>
+                    <input id="submit" type="submit" name="" value="Submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
+                </form>
+            <section>
+
+            <section id="result">
+                <strong>Form Results</strong>
+                <div id="result2">
+                    <div id="polarity"></div>
+                    <div id="subjectivity"></div>
+                    <div id="confidence"></div>
+                    <div id="agreement"></div>
+                    <div id="irony"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>This is a footer</p>
+        </footer>
+
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+           </script>
+
+    </body>
+</html>

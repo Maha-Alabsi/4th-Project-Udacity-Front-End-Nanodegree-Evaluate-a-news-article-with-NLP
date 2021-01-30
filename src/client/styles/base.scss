@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 2;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    #intro{
+        color: #6b6b6b;
+        margin-bottom: 20px;
+    }
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#sec1{
+    margin-top: 40px;
+}
+
+#result{
+    
+    strong{
+        background-color:#f6bd60;
+        font-size: 15px;
+        padding: 6px;
+        color: #fff;
+    }
+#result2{
+    border: 1px solid #f6bd60;
+    width: 800px;
+    display: none;
+    margin-top:10px;
+    div{
+        margin:20px;
+        color: #6b6b6b;
+    }
+}
+}
