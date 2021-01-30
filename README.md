@@ -40,7 +40,7 @@ This web tool use of an external API called MeaningCLoud to interact with their 
 ***
 If you want to run this project in your machine ,you need to:
 
-1. Cd <project directory>
+1. Cd (project directory)
   * npm install
 3. Open two different command line window
 - In the first terminal run : npm run build-dev
