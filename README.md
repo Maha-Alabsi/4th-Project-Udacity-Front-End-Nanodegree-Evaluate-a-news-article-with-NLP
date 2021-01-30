@@ -44,7 +44,9 @@ If you want to run this project in your machine ,you need to:
    * cd (project directory)
    * npm install
 2. Open two different command line window
-  * In the first terminal run : npm run build-dev
-  * In the second terminal run : 1. npm run build-prod -- 2. npm run start
+   * In the first terminal run : npm run build-dev
+   * In the second terminal run : 
+       1. npm run build-prod
+       2. npm run start
 
                           
